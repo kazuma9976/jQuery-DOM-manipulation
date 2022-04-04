@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>jQueryのDOM操作</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src = "script.js"></script>
+</head>
+<body>
+    <h1 id="h1">DOM</h1>
+    <h2>ユーザー一覧</h2>
+    <form>
+        名前: <input type="text" name="name"><br>
+        年齢: <input type="text" name="age"><br>
+        性別: <input type="radio" name="gender" value = "male" checked>男性
+        <input type="radio" name="gender" value = "female">女性<br>
+        <button type="button">登録</button>
+    </form>
+    <br>
+    <form>
+        ※性別選択
+        <!--name属性は性別のラジオボタンの部分と被らないよう注意-->
+        <input type="radio" name="select_gender" value="all" checked>全員
+        <input type="radio" name="select_gender" value="male">男性
+        <input type="radio" name="select_gender" value="female">女性
+    </form>
+    <div id="all"></div>
+</body>
+</html>
