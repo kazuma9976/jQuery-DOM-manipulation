@@ -12,7 +12,7 @@ GitHub Pagesにも載せておりますので、ぜひご覧ください
 - JavaScript / jQuery 3.3.1
 - Bootstrap 5.0.2
 - バージョン管理 Git / GitHub
-- GitHub Pages: https://kazuma9976.github.io/jQuery_Practice-DOM-manipulation/
+- GitHub Pages: https://kazuma9976.github.io/jQuery-DOM-manipulation/
 
 ## 3. 機能一覧
 - ユーザー登録機能
